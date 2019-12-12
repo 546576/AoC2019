@@ -12,7 +12,7 @@ with open(filepath) as fp:
             X = (line_int/3)
             X2 = math.floor(X)
             X3 = X2-2
-            final_tally = final_tally + X3
+            final_tally += X3
             line = fp.readline()
 
         print(final_tally)
