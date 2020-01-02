@@ -20,16 +20,20 @@ with open(filepath) as fp:
 
 
 #adjusting array positions
+array[1] = 12
+array[2] = 2
 op_1 = array[array_position[0]]
 op_2 = array[array_position[1]]
 op_3 = array[array_position[2]]
 op_4 = array[array_position[3]]
-array[1] = 12
-array[2] = 2
 
 #running opcode
 
 while op_1 != 99:
+    op_1 = array[array_position[0]]
+    op_2 = array[array_position[1]]
+    op_3 = array[array_position[2]]
+    op_4 = array[array_position[3]]
 
     if op_1 == 1:
         add_op = array[op_2] + array[op_3]
@@ -38,6 +42,7 @@ while op_1 != 99:
         array_position[1] += 4
         array_position[2] += 4
         array_position[3] += 4
+
 
 
     elif op_1 == 2:
