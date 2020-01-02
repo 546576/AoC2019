@@ -28,25 +28,28 @@ array[1] = 12
 array[2] = 2
 
 #running opcode
-if op_1 == 1:
-    add_op = array[op_2] + array[op_3]
-    array[op_4] = add_op
-    array_position[0] += 4
-    array_position[1] += 4
-    array_position[2] += 4
-    array_position[3] += 4
 
-elif op_1 == 2:
-    add_op = array[op_2] * array[op_3]
-    array[op_4] = add_op
-    array_position[0] += 4
-    array_position[1] += 4
-    array_position[2] += 4
-    array_position[3] += 4
+while op_1 != 99:
+
+    if op_1 == 1:
+        add_op = array[op_2] + array[op_3]
+        array[op_4] = add_op
+        array_position[0] += 4
+        array_position[1] += 4
+        array_position[2] += 4
+        array_position[3] += 4
 
 
-elif op_1 == 99:
-    print(array[0])
+    elif op_1 == 2:
+        add_op = array[op_2] * array[op_3]
+        array[op_4] = add_op
+        array_position[0] += 4
+        array_position[1] += 4
+        array_position[2] += 4
+        array_position[3] += 4
+
+
+print(array[0])
 
 
 
