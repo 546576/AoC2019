@@ -1,9 +1,9 @@
 #variables
 filepath = 'day_2/opcode.txt'
-array_position = [0, 1, 2, 3]
-array = []
+position = [0, 1, 2, 3]
+opcode_array = []
 
-#setting up the array and writing the file contents into it
+#setting up the opcode_array and writing the file contents into it
 with open(filepath) as fp:
         line = fp.readline()
         final_tally = 0
@@ -12,40 +12,40 @@ with open(filepath) as fp:
         while line:
             line_int = int(line)
 
-            array.insert(n, line_int)
+            opcode_array.insert(n, line_int)
             line = fp.readline()
             n += 1
 
-#adjusting array positions
-array[1] = 12
-array[2] = 2
-op_1 = array[array_position[0]]
-op_2 = array[array_position[1]]
-op_3 = array[array_position[2]]
-op_4 = array[array_position[3]]
+#adjusting opcode_array positions
+opcode_array[1] = 12
+opcode_array[2] = 2
+operator_1 = opcode_array[position[0]]
+operator_2 = opcode_array[position[1]]
+operator_3 = opcode_array[position[2]]
+operator_4 = opcode_array[position[3]]
 
 #running opcode
-while op_1 != 99:
-    op_1 = array[array_position[0]]
-    op_2 = array[array_position[1]]
-    op_3 = array[array_position[2]]
-    op_4 = array[array_position[3]]
+while operator_1 != 99:
+    operator_1 = opcode_array[position[0]]
+    operator_2 = opcode_array[position[1]]
+    operator_3 = opcode_array[position[2]]
+    operator_4 = opcode_array[position[3]]
 
-    if op_1 == 1:
-        add_op = array[op_2] + array[op_3]
-        array[op_4] = add_op
-        array_position[0] += 4
-        array_position[1] += 4
-        array_position[2] += 4
-        array_position[3] += 4
+    if operator_1 == 1:
+        add_op = opcode_array[operator_2] + opcode_array[operator_3]
+        opcode_array[operator_4] = add_op
+        position[0] += 4
+        position[1] += 4
+        position[2] += 4
+        position[3] += 4
 
-    elif op_1 == 2:
-        add_op = array[op_2] * array[op_3]
-        array[op_4] = add_op
-        array_position[0] += 4
-        array_position[1] += 4
-        array_position[2] += 4
-        array_position[3] += 4
+    elif operator_1 == 2:
+        add_op = opcode_array[operator_2] * opcode_array[operator_3]
+        opcode_array[operator_4] = add_op
+        position[0] += 4
+        position[1] += 4
+        position[2] += 4
+        position[3] += 4
 
-print(array[0])
+print(opcode_array[0])
 fp.close()

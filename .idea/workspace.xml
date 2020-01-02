@@ -22,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/day_2/oppocalypse.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+            <state relative-caret-position="333">
+              <caret line="42" column="68" lean-forward="true" selection-start-line="42" selection-start-column="68" selection-end-line="42" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -60,10 +60,15 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>,</find>
+      <find>array</find>
+      <find>op_4</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>\n</replace>
+      <replace>connorsbigdickarrayofhe</replace>
+      <replace>opcode_array</replace>
+      <replace>operator_4</replace>
     </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -145,12 +150,12 @@
       <workItem from="1576573103021" duration="599000" />
       <workItem from="1576761795517" duration="599000" />
       <workItem from="1576857414515" duration="615000" />
-      <workItem from="1577981611486" duration="4732000" />
+      <workItem from="1577981611486" duration="5023000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9324000" />
+    <option name="totallyTimeSpent" value="9615000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -213,8 +218,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day_2/oppocalypse.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+        <state relative-caret-position="333">
+          <caret line="42" column="68" lean-forward="true" selection-start-line="42" selection-start-column="68" selection-end-line="42" selection-end-column="68" />
         </state>
       </provider>
     </entry>
