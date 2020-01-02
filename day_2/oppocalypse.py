@@ -1,10 +1,9 @@
-#reading the file and writing the contents to an array
+#variables
 filepath = 'day_2/opcode.txt'
 array_position = [0, 1, 2, 3]
 array = []
 
-
-#setting up the array
+#setting up the array and writing the file contents into it
 with open(filepath) as fp:
         line = fp.readline()
         final_tally = 0
@@ -17,8 +16,6 @@ with open(filepath) as fp:
             line = fp.readline()
             n += 1
 
-
-
 #adjusting array positions
 array[1] = 12
 array[2] = 2
@@ -28,7 +25,6 @@ op_3 = array[array_position[2]]
 op_4 = array[array_position[3]]
 
 #running opcode
-
 while op_1 != 99:
     op_1 = array[array_position[0]]
     op_2 = array[array_position[1]]
@@ -43,8 +39,6 @@ while op_1 != 99:
         array_position[2] += 4
         array_position[3] += 4
 
-
-
     elif op_1 == 2:
         add_op = array[op_2] * array[op_3]
         array[op_4] = add_op
@@ -53,11 +47,5 @@ while op_1 != 99:
         array_position[2] += 4
         array_position[3] += 4
 
-
 print(array[0])
-
-
-
-
-
 fp.close()
