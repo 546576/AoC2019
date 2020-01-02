@@ -40,8 +40,8 @@ while operator_1 != 99:
         position[3] += 4
 
     elif operator_1 == 2:
-        add_op = opcode_array[operator_2] * opcode_array[operator_3]
-        opcode_array[operator_4] = add_op
+        multiply_op = opcode_array[operator_2] * opcode_array[operator_3]
+        opcode_array[operator_4] = multiply_op
         position[0] += 4
         position[1] += 4
         position[2] += 4
