@@ -22,7 +22,7 @@ position_reset = position
 
 #output check function
 def output_check():
-    if opcode_array[0] == 19690720:
+    if opcode_array[position[0]] == 19690720:
         print('noun equals: ', opcode_array[position[1]])
         print('verb equals: ', opcode_array[position[2]])
 
