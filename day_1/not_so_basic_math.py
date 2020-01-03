@@ -2,7 +2,6 @@
 import math
 filepath = 'day_1/input.txt'
 
-
 with open(filepath) as fp:
         line = fp.readline()
         final_tally = 0
