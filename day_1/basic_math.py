@@ -1,20 +1,20 @@
 #reading the file and writing the contents to an array
 import math
-filepath = 'Day1/input.txt'
+filepath = 'day_1/input.txt'
 
 
 with open(filepath) as fp:
         line = fp.readline()
-        finaltally = 0
+        final_tally = 0
 
         while line:
-            lineint = float(line)
-            X = (lineint/3)
+            line_int = float(line)
+            X = (line_int/3)
             X2 = math.floor(X)
             X3 = X2-2
-            finaltally = finaltally + X3
+            final_tally += X3
             line = fp.readline()
 
-        print(finaltally)
+        print(final_tally)
 
 fp.close()
