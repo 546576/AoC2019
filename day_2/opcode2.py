@@ -29,6 +29,7 @@ def output_check():
 #adjusting opcode_array positions
 verb = 0
 noun = 0
+iteration = 0
 operator_1 = opcode_array[position[0]]
 operator_2 = opcode_array[position[1]]
 operator_3 = opcode_array[position[2]]
@@ -71,10 +72,12 @@ while noun < 100:
         opcode_array = opcode_reset
         position = position_reset
         verb += 1
+        iteration += 1
 
     noun += 1
 
 print('final opcode output: ', opcode_array[0])
+print('total iterations: ', iteration)
 fp.close()
 
 
