@@ -2,6 +2,12 @@
 filepath = 'day_2/opcode.txt'
 position = [0, 1, 2, 3]
 opcode_array = []
+opcode_reset = opcode_array
+position_reset = position
+verb = 0
+noun = 0
+output_iteration = 0
+iteration = 0
 
 #setting up the opcode_array and writing the file contents into it
 with open(filepath) as fp:
@@ -16,24 +22,18 @@ with open(filepath) as fp:
             line = fp.readline()
             n += 1
 
-#creating a copy of the basic array to reset to
-opcode_reset = opcode_array
-position_reset = position
-
-#output check function
-def output_check():
-    if opcode_array[0] == 521344:
-        print('noun equals: ', opcode_array[1])
-        print('verb equals: ', opcode_array[2])
-
 #adjusting opcode_array positions
-verb = 0
-noun = 0
-iteration = 0
 operator_1 = opcode_array[position[0]]
 operator_2 = opcode_array[position[1]]
 operator_3 = opcode_array[position[2]]
 operator_4 = opcode_array[position[3]]
+
+#output check function
+def output_check():
+    if opcode_array[0] == 19690720:
+        print('noun equals: ', opcode_array[1])
+        print('verb equals: ', opcode_array[2])
+
 
 #setting up verb/noun loops
 while noun < 100:
@@ -57,7 +57,6 @@ while noun < 100:
                 position[1] += 4
                 position[2] += 4
                 position[3] += 4
-                output_check()
 
             elif operator_1 == 2:
                 multiply_op = opcode_array[operator_2] * opcode_array[operator_3]
@@ -66,9 +65,9 @@ while noun < 100:
                 position[1] += 4
                 position[2] += 4
                 position[3] += 4
-                output_check()
 
-
+        output_check()
+        
         opcode_array = opcode_reset
         position = position_reset
         verb += 1

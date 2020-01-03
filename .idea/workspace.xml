@@ -13,17 +13,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day_2/opcode.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day_2/oppocalypse.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="68">
+              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -31,8 +22,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/day_2/opcode2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-170">
-              <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+            <state relative-caret-position="1039">
+              <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day_2/oppocalypse.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -41,16 +41,16 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>,</find>
       <find>array</find>
       <find>op_4</find>
+      <find>,</find>
     </findStrings>
     <replaceStrings>
       <replace />
-      <replace>\n</replace>
       <replace>connorsbigdickarrayofhe</replace>
       <replace>opcode_array</replace>
       <replace>operator_4</replace>
+      <replace>\n</replace>
     </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -59,8 +59,8 @@
         <option value="$PROJECT_DIR$/Day1/basic_math.py" />
         <option value="$PROJECT_DIR$/day_1/basic_math.py" />
         <option value="$PROJECT_DIR$/day_1/not_so_basic_math.py" />
-        <option value="$PROJECT_DIR$/day_2/opcode.txt" />
         <option value="$PROJECT_DIR$/day_2/oppocalypse.py" />
+        <option value="$PROJECT_DIR$/day_2/opcode.txt" />
         <option value="$PROJECT_DIR$/day_2/opcode2.py" />
       </list>
     </option>
@@ -138,10 +138,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13721000" />
+    <option name="totallyTimeSpent" value="15260000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -193,22 +194,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day_2/opcode.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="68">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day_2/oppocalypse.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="70">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day_2/opcode2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        <state relative-caret-position="1039">
+          <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
         </state>
       </provider>
     </entry>
